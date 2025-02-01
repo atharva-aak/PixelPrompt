@@ -176,8 +176,88 @@ h1{
     display: none;
 }
 
-@media(max-width : 1200px){
+@media (max-width : 1200px) {
     .container{
         width: 90%;
     }
+    
+    
+}
+@media (max-width : 900px){
+
+
+.container{
+    flex-direction: column;
+}
+#image {
+    width: 50%;
+}
+.image {
+    width: 100%;
+    height: 64%;}
+
+    .btns{
+        width: 100%;
+    height: 25%; 
+    flex-direction: row;
+    }
+    .output{
+        flex-direction: column;
+    }
+}
+
+@media (max-width : 570px){
+
+    h1 {
+        font-size: 30px;
+    }
+    .input{
+        font-size: 20px;
+    }
+    #input{
+        font-size: 15px;
+    }
+    #image {
+        width: 60%;
+      }
+}
+@media (max-width : 450px){
+
+    .container{
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+    }
+    h1 {
+        font-size: 22px;
+      }
+      .input {
+        font-size: 15px;
+      }
+      #input {
+        width: 90%;
+        font-size:12px ;
+      }
+      #btn {
+        width: 150px;
+        height: 35px;
+        font-size: 15px;
+}
+.btns{
+    justify-content: space-around;
+    gap: 0px;
+}
+#download {
+    width: 110px;
+    height: 35px;
+    font-size: 15px;
+}
+#reset {
+    width: 110px;
+    height: 35px;
+    font-size: 15px;
+}
+#image {
+    width: 85%;
+  }
 }
