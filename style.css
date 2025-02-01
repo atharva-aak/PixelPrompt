@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('./herobg.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 70%;
+    height: 90%;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 0 20px rgba(183, 101, 221, 0.8), 0 0 20px rgba(130, 33, 209, 0.8);
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    gap: 20px;
+
+}
+h1{
+    font-size: 40px;
+    text-shadow: 2px 2px 10px rgb(209, 134, 230);
+}
+
+.input{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    color: aliceblue;
+    font-size: 25px;
+}
+#input{
+    width: 70%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(183, 101, 221, 0.8), 0 0 20px rgba(130, 33, 209, 0.8);
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#btn{
+    width: 170px;
+    height: 50px;
+    background-color: rgba(162, 69, 238, 0.8);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgb(180, 176, 176);
+    transition: all 0.3s;
+
+
+}
+#btn:hover{
+    background-color: rgb(179, 105, 236);
+}
+
+.output{
+    width: 90%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.image{
+    width: 70%;
+    height: 100%;
+    /* background: linear-gradient(to right, rgb(3,19,22), rgb(160,161,235)); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
+}
+
+.btns{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
+    /* background: linear-gradient(to right, rgb(3,19,22), rgb(160,161,235)); */
+    flex-direction: column;
+    gap: 90px;
+
+}
+#download{
+    width: 150px;
+    height: 50px;
+    background-color: rgba(162, 69, 238, 0.8);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgb(180, 176, 176);
+    transition: all 0.3s;
+}
+
+#reset{
+    width: 150px;
+    height: 50px;
+    background-color: rgba(162, 69, 238, 0.8);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgb(180, 176, 176);
+    transition: all 0.3s;
+
+}
+#download:hover{
+    background-color: rgb(179, 105, 236);
+}
+#reset:hover{
+    background-color: rgb(179, 105, 236);
+}
+
+#image{
+    width: 65%;
+    height: 90%;
+    background-size: cover;
+    border: none;
+    border-radius: 20px;
+    display: none;
+}
+
+#loading{
+    position: absolute;
+    width: 10%;
+    filter: drop-shadow(2px 2px 10px black);
+    display: none;
+}
