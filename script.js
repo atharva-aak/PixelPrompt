@@ -5,6 +5,7 @@ const GenBtn = document.getElementById("btn");
 const svg = document.getElementById("svg");
 const load = document.getElementById("loading");
 const ResetBtn = document.getElementById("reset");
+const downloadBtn = document.getElementById("download");
 
 
 async function query(data) {
@@ -32,6 +33,9 @@ async function generate() {
 
         const objectUrl = URL.createObjectURL(response);
         image.src = objectUrl;
+		downloadBtn.addEventListener("click",()=>{
+			download(objectUrl);
+		})
 
     });
     
@@ -54,3 +58,14 @@ ResetBtn.addEventListener("click", ()=>{
 	inputText.value = ""
 	window.location.reload();
 })
+
+function download(objectUrl){
+fetch(objectUrl).then(res=>res.blob())
+.then(file=>{
+	let a = document.createElement("a");
+	a.href = URL.createObjectURL(file);
+	a.download = new Date().getTime();
+	a.click();
+})
+.catch(()=> alert("Failed Download"))
+}
