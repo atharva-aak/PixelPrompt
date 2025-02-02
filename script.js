@@ -1,6 +1,6 @@
-const key = "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";
 const inputText = document.getElementById("input");
 const image = document.getElementById("image");
+const garbage = "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";
 const GenBtn = document.getElementById("btn");
 const svg = document.getElementById("svg");
 const load = document.getElementById("loading");
@@ -13,7 +13,7 @@ async function query(data) {
 		"https://api-inference.huggingface.co/models/ZB-Tech/Text-to-Image",
 		{
 			headers: {
-				Authorization: `Bearer ${key}`
+				Authorization: `Bearer ${garbage}`
 			},
 			method: "POST",
 			body: JSON.stringify({"inputs": inputText.value}),
