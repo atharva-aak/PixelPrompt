@@ -15,8 +15,12 @@
 - **JavaScript** – Dynamic interactions and AI request handling.
 
 ## 🖼️ Screenshots  
-### 📌 Home Page  
+### 📌 Landing Page  
 ![PixelPrompt UI](./homepage.png)
+
+### 📌 Image Generated 
+![PixelPrompt UI](./image_loaded.png)
+
 
 ---
 
