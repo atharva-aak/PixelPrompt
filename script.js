@@ -1,6 +1,6 @@
 const inputText = document.getElementById("input");
 const image = document.getElementById("image");
-const garbage = "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";
+const garbage = "YOUR_API_KEY";
 const GenBtn = document.getElementById("btn");
 const svg = document.getElementById("svg");
 const load = document.getElementById("loading");
