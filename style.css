@@ -195,6 +195,16 @@ h1{
     display: none;
 }
 
+.credit {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 0.9rem;
+    color: #7a7a7a;
+    font-style: italic;
+}
+
+
 @media (max-width : 1200px) {
     .container{
         width: 90%;
