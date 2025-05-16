@@ -1,5 +1,7 @@
 # 🎨 PixelPrompt - AI-Powered Text-to-Image Generator  
 
+# "You Say It. We Make It"
+
 ## 🚀 Overview  
 **PixelPrompt** is an AI-based **Text-to-Image Generator** that transforms words into stunning visuals. With an intuitive interface and a fully responsive design, this web app ensures a seamless experience across all devices. Whether you're an artist, designer, or just exploring AI creativity, **PixelPrompt** brings your imagination to life!  
 
